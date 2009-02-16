@@ -1,5 +1,5 @@
 GEM       = "stomp"
-VER       = "1.0.6"
+VER       = "1.1"
 AUTHORS   = ["Brian McCallister", 'Marius Mathiesen']
 EMAILS    = ["brianm@apache.org", 'marius@stones.com']
 HOMEPAGE  = "http://stomp.codehaus.org/"
@@ -27,7 +27,6 @@ Gem::Specification.new do |s|
   s.has_rdoc = true
   s.rdoc_options = ["--quiet", "--title", "stomp documentation", "--opname", "index.html", "--line-numbers", "--main", "README.rdoc", "--inline-source"]
   s.extra_rdoc_files = ["README.rdoc", "CHANGELOG", "LICENSE"]
-  s.required_ruby_version = "<1.9.1"
 end
   
 
